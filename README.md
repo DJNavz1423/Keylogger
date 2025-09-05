@@ -16,4 +16,21 @@ This project is designed for educational purposes to demonstrate:
 - Keyboard event handling
 - Error handling and recovery systems
 
-⚠️ Warning: Use only on devices you own with proper authorization.
+⚠️ ## Legal Disclaimer
+
+##Important Notice About This Project
+This keylogger software is created solely for educational purposes. It is intended to help students and developers learn about:
+- Database integration with MongoDB
+- Python programming techniques
+- Keyboard event handling in applications
+- Data storage and management systems
+
+**I do not encourage or support using this software for any unauthorized activities.** Always respect privacy laws and only use such tools on devices you own or have explicit permission to monitor.
+
+Unauthorized use of keyloggers may violate:
+- Privacy laws in many countries
+- Computer misuse legislation
+- Terms of service of systems you access
+
+**By using this software, you agree that you will use it responsibly and legally, only for educational purposes on systems you own or have permission to monitor.**
+
