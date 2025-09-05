@@ -15,10 +15,11 @@ This project is designed for educational purposes to demonstrate:
 - Python threading and timing
 - Keyboard event handling
 - Error handling and recovery systems
+  
 
-⚠️ ## Legal Disclaimer
+## ⚠️Legal Disclaimer
 
-## Important Notice About This Project
+**Important Notice About This Project**
 This keylogger software is created solely for educational purposes. It is intended to help students and developers learn about:
 - Database integration with MongoDB
 - Python programming techniques
